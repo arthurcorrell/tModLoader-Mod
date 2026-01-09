@@ -19,6 +19,7 @@ namespace ExampleMod.Content.Items.Weapons
 			Item.scale = 0.75f;
 			Item.rare = ItemRarityID.Green; // The color that the item's name will be in-game.
 
+			// hi! this line was added in this commit. that's why its marked in green!
 			// Use Properties
 			Item.useTime = 8; // The item's use time in ticks (60 ticks == 1 second.)
 			Item.useAnimation = 8; // The length of the item's use animation in ticks (60 ticks == 1 second.)
