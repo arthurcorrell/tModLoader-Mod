@@ -1,0 +1,33 @@
+# tModLoader ignores
+# Ignore the bin/ and obj/ directories which contain build artifacts
+**/bin/
+**/obj/
+
+# Ignore packages directory (dependency caches)
+**/packages/
+
+# Ignore editor/IDE-specific files and directories
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+*.force
+
+# Ignore the built .tmod file and any generated zip/tar.gz files
+*.tmod
+*.zip
+*.tar.gz
+
+# Ignore local test/debug files (players, worlds, logs, mod configs)
+/Test Local/
+/test/
+/players/
+/worlds/
+/logs/
+/Mod Configs/
+/Mods/
+
+# Specific files or file types that might be generated in the mod directory
+# Example: ignore .xnb files if they are generated and not source
+# /ExampleMod/Fonts/ExampleFont.xnb
